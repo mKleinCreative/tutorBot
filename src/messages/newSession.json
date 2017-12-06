@@ -1,0 +1,44 @@
+{
+  "text": "When can you meet?",
+  "attachments": [
+    {
+      "text": "Choose a date for your session.",
+      "fallback": "Session not available :( try a different date",
+      "callback_id": "session_date",
+      "color": "#3AA3E3",
+      "attachment_type": "default",
+      "actions": [
+        {
+          "name": "date",
+          "text": "Monday",
+          "type": "button",
+          "value": "monday"
+        },
+        {
+          "name": "date",
+          "text": "Tuesday",
+          "type": "button",
+          "value": "tuesday"
+        },
+        {
+          "name": "date",
+          "text": "Wednesday",
+          "type": "button",
+          "value": "wednesday"
+        },
+        {
+          "name": "date",
+          "text": "Thursday",
+          "type": "button",
+          "value": "thursday"
+        },
+        {
+          "name": "date",
+          "text": "Friday",
+          "type": "button",
+          "value": "friday"
+        }
+      ]
+    }
+  ]
+}
